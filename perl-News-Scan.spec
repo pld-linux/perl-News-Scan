@@ -29,7 +29,7 @@ Modu³ perla do prowadzenia statystyk News.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
