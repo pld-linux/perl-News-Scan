@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (uses network!)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	News
-%define	pnam	Scan
+%define		pdir	News
+%define		pnam	Scan
 Summary:	News::Scan perl module
 Summary(pl):	Modu³ Perla News::Scan
 Name:		perl-News-Scan
