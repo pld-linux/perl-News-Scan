@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Scan
-Summary:	News-Scan perl module
-Summary(pl):	Modu³ perla News-Scan
+Summary:	News::Scan perl module
+Summary(pl):	Modu³ perla News::Scan
 Name:		perl-News-Scan
 Version:	0.51
 Release:	5
@@ -18,7 +18,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-News-Scan - Perl Compiler backend to statistic News.
+News::Scan - Perl Compiler backend to statistic News.
 
 %description -l pl
 Modu³ perla do prowadzenia statystyk News.
