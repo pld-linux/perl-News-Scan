@@ -9,6 +9,7 @@ Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	bd2583e134a98d38779acbb50987fb80
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-MailTools
 BuildRequires:	perl-TimeDate
