@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	News
 %define	pnam	Scan
-%include	/usr/lib/rpm/macros.perl
 Summary:	News-Scan perl module
 Summary(pl):	Modu³ perla News-Scan
 Name:		perl-News-Scan
 Version:	0.51
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ News-Scan - Perl Compiler backend to statistic News.
 Modu³ perla do prowadzenia statystyk News.
 
 %prep
-%setup -q -n News-Scan-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
