@@ -3,7 +3,7 @@ Summary:	News-Scan perl module
 Summary(pl):	Modu³ perla News-Scan
 Name:		perl-News-Scan
 Version:	0.51
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -14,6 +14,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-TimeDate
 BuildRequires:	perl-MailTools
 BuildRequires:	perl-libnet
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
