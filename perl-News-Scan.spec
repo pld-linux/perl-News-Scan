@@ -6,7 +6,7 @@
 %define		pdir	News
 %define		pnam	Scan
 Summary:	News::Scan perl module
-Summary(pl):	Modu≥ Perla News::Scan
+Summary(pl.UTF-8):   Modu≈Ç Perla News::Scan
 Name:		perl-News-Scan
 Version:	0.53
 Release:	2
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 News::Scan - Perl Compiler backend to statistic News.
 
-%description -l pl
-Modu≥ Perla do prowadzenia statystyk News.
+%description -l pl.UTF-8
+Modu≈Ç Perla do prowadzenia statystyk News.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
