@@ -6,7 +6,7 @@
 %define		pdir	News
 %define		pnam	Scan
 Summary:	News::Scan perl module
-Summary(pl.UTF-8):   Moduł Perla News::Scan
+Summary(pl.UTF-8):	Moduł Perla News::Scan
 Name:		perl-News-Scan
 Version:	0.53
 Release:	2
