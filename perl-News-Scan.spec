@@ -9,7 +9,7 @@ Summary:	News::Scan perl module
 Summary(pl.UTF-8):	Moduł Perla News::Scan
 Name:		perl-News-Scan
 Version:	0.53
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
