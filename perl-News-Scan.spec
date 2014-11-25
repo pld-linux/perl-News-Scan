@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# perform "make test" (uses network!)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	News
 %define		pnam	Scan
+%include	/usr/lib/rpm/macros.perl
 Summary:	News::Scan perl module
 Summary(pl.UTF-8):	Moduł Perla News::Scan
 Name:		perl-News-Scan
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bd2583e134a98d38779acbb50987fb80
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/News-Scan/
 BuildRequires:	perl-MailTools
 BuildRequires:	perl-TimeDate
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-libnet
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
