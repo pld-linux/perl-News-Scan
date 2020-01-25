@@ -4,7 +4,6 @@
 
 %define		pdir	News
 %define		pnam	Scan
-%include	/usr/lib/rpm/macros.perl
 Summary:	News::Scan perl module
 Summary(pl.UTF-8):	Moduł Perla News::Scan
 Name:		perl-News-Scan
